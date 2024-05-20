@@ -1,4 +1,6 @@
-
+/*
+ * Author: Canyon Gudaitis
+ */
 function addRow() {
     const table = document.getElementsByTagName("tbody")[0];
     const new_row = table.insertRow();
