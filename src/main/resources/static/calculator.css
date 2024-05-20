@@ -1,0 +1,91 @@
+body {
+    font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
+    background: #a6192e url("./textured-red-01-small.png") repeat top left;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+    font-family: "DINWebBold",sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: #c33a41;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 30px 0px;
+}
+
+table th {
+    font-weight:bold;
+    width:12em;
+    background-color:#ddd;
+    border:1px solid #bbb;
+    padding:.25em .5em;
+    line-height:1.25em;
+    vertical-align:top
+}
+
+table td {
+    border:1px solid #bbb;
+    padding: .5em .5em .15em;
+    line-height:1.25em
+}
+
+#container {
+    background-color: #fff;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(50, 50, 50, 0.75);
+    border-top: 20px solid #444;
+    border-bottom: 40px solid #444;
+    padding: 50px;
+    margin: auto;
+}
+
+#content {
+    background-color: #E9EFF1;
+    width: fit-content;
+    border: 1px solid #D2E1E6;
+    padding: 10px;
+    margin-left: 0;
+}
+
+.userIn {
+    height: 32px;
+    width: 64px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.redButton {
+    background-color: #a6192e;
+    border: 1px solid white;
+    border-radius: .25em;
+    color: white;
+    padding: .15em .25em;
+    text-align: center;
+    height: 30px;
+}
+
+.redButton:hover {
+    background-color: #c33a41;
+}
+
+.redButton:active {
+    background-color: #B12128FF;
+}
+
+.redButton#wtd {
+    width: 96px;
+}
+
+.redButton#mean {
+    width: 84px;
+}
