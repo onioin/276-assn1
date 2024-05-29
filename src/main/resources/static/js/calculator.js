@@ -33,7 +33,8 @@ function percentCalc(){
         const numer = document.getElementById("gradeNumer" + i);
         const denom = document.getElementById("gradeDenom" + i);
         let perc = document.getElementById("percRow" + i);
-        perc.innerHTML = (+numer.value >= 0 && +denom.value > 0) ? +(((+numer.value) * 100) / (+denom.value)).toFixed(2) + "%" : "";
+        perc.innerHTML = (+numer.value >= 0 && +denom.value > 0) ?
+            +(((+numer.value) * 100) / (+denom.value)).toFixed(2) + "%" : "";
     }
 }
 
